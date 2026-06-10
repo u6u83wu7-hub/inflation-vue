@@ -5,3 +5,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
 })
+export default defineConfig({
+  base: "/inflation-vue/",
+  plugins: [vue()]
+})
